@@ -7,19 +7,13 @@
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-	<style>
- 		.picture { list-style:none; padding:0; margin:0; }
- 		.picture { float:left; width:50%;}
- 		.picture a {display:block; margin:5px; border: 1px }
- 		.picture img { display:block; width:50%;  height:auto;}
-		.picture img:hover { display:block; width:78%;  height:auto;} 
-	</style>
+
 
 	</head>
 	<body>
 
 		<div data-role="page" id="intro">
-			<div data-role="header">
+			<div data-role="header" data-theme="b">
 				<a href="#intro"data-role="button">처음으로</a>
 				<h1> 영화 소개 </h1>
 				<a href="#reserve"data-role="button" >예매하기</a>
@@ -43,7 +37,7 @@
 					</li>
 				</ul>
 			</div>
-			<div data-role="footer" data-position="fixed">
+			<div data-role="footer" data-position="fixed" data-theme="b">
 				<a href="#">평점 쓰기</a>
 
 			</div>
@@ -65,7 +59,7 @@
 		</div>
 
 		<div data-role="page" id="movie1" data-theme="a">
-			<div data-role="header" data-position="fixed" data-theme="a">
+			<div data-role="header" data-position="fixed" data-theme="b">
 				<h1>어벤져스:엔드게임</h1>
 				<a href="#intro" data-role="button">처음으로</a>
 				<a href="#reserve"data-role="button" >예매하기</a>
@@ -75,36 +69,73 @@
 					<div data-role="collapsible" >
 						<h3>포스터</h3>
 						<p>
-							<img src="movie1.jpg" width="150"><span class="picture"><a href="movie1.jpg" rel="external"><img src="movie1.jpg" width="200"/></a></span>
+							<img src="movie1.jpg" width="415">
 						</p>
 					</div>
 					<div data-role="collapsible" data-collapsed="false">
 						<h3>줄거리</h3>
 						<p>
-							패널 내용2
+							인피니티 워 이후 절반만 살아남은 지구<br/>
+ 							마지막 희망이 된 어벤져스<br/>
+ 				  			먼저 떠난 그들을 위해 모든 것을 걸었다!<br/>
+ 							<br/>
+ 							위대한 어벤져스<br/>
+							 운명을 바꿀 최후의 전쟁이 펼쳐진다!<br/>
 						</p>
 					</div>
 					<div data-role="collapsible">
 						<h3>예고편</h3>
 						<p>
-							패널 내용3
+						<iframe width="430" height="240" src="https://www.youtube.com/embed/PVP5ZJuI57c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</p>
 					</div>
 				</div>
 			</div>
-			<div data-role="footer" data-theme="b"></div>
+			<div data-role="footer" data-position="fixed" data-theme="b"></div>
 		</div>
+		
 		<div data-role="page" id="movie2" data-theme="a">
-			<div data-role="header" data-position="fixed" data-theme="a">
+			<div data-role="header" data-position="fixed" data-theme="b">
 				<h1>걸캅스</h1>
 				<a href="#intro" data-role="button">처음으로</a>
 				<a href="#reserve"data-role="button" >예매하기</a>
 			</div>
 			<div data-role="content" >
-
+<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+					<div data-role="collapsible" >
+						<h3>포스터</h3>
+						<p>
+							<img src="movie2.jpg" width="415">
+						</p>
+					</div>
+					<div data-role="collapsible" data-collapsed="false" >
+						<h3>줄거리</h3>
+						<p>
+							민원실 퇴출 0순위 전직 전설의 형사 '미영'과 민원실로 밀려난 현직 꼴통 형사 '지혜' <br/>
+ 집에서는 눈만 마주쳐도 으르렁 대는 시누이 올케 사이인 두 사람은 <br/>
+ 민원실에 신고접수를 하기 위해 왔다가 차도에 뛰어든 한 여성을 목격하고  <br/>
+ 그녀가 48시간 후 업로드가 예고된 디지털 성범죄 사건의 피해자란 사실을 알게 된다. <br/>
+ 강력반, 사이버 범죄 수사대, 여성청소년계까지 경찰 내 모든 부서들에서 <br/>
+ 복잡한 절차와 인력 부족을 이유로 사건이 밀려나자  <br/>
+ ‘미영’과 ‘지혜’는 비공식 수사에 나서기로 결심한다.  <br/>
+  <br/>
+ 수사가 진전될수록 형사의 본능이 꿈틀대는 ‘미영’과 정의감에 활활 불타는 ‘지혜’는  <br/>
+ 드디어 용의자들과 마주할 기회를 잡게 되는데… <br/>
+  <br/>
+ 걸크러시 콤비의 비공식 합동 수사가 펼쳐진다! <br/>
+						</p>
+					</div>
+					<div data-role="collapsible">
+						<h3>예고편</h3>
+						<p>
+						<iframe width="430" height="240" src="https://www.youtube.com/embed/BBA_gkjnpy8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</p>
+					</div>
+				</div>
 			</div>
-			<div data-role="footer" data-theme="b"></div>
+			<div data-role="footer" data-theme="b" data-position="fixed"></div>
 		</div>
+		
 		<div data-role="page" id="movie3" data-theme="a">
 			<div data-role="header" data-position="fixed" data-theme="a">
 				<h1>명탐정 피카츄</h1>
@@ -114,8 +145,9 @@
 			<div data-role="content" >
 
 			</div>
-			<div data-role="footer" data-theme="b"></div>
+			<div data-role="footer" data-theme="b" data-position="fixed"></div>
 		</div>
+		
 		<div data-role="page" id="movie4" data-theme="a">
 			<div data-role="header" data-position="fixed" data-theme="a">
 				<h1>나의 특별한 형제</h1>
@@ -125,8 +157,9 @@
 			<div data-role="content" >
 
 			</div>
-			<div data-role="footer" data-theme="b"></div>
+			<div data-role="footer" data-theme="b" data-position="fixed"></div>
 		</div>
+		
 		<div data-role="page" id="movie5" data-theme="a">
 			<div data-role="header" data-position="fixed" data-theme="a">
 				<h1>캡틴마블</h1>
@@ -136,7 +169,9 @@
 			<div data-role="content" >
 
 			</div>
-			<div data-role="footer" data-theme="b"></div>
+			<div data-role="footer" data-theme="b" data-position="fixed"></div>
 		</div>
+		
+		
 	</body>
 </html>
