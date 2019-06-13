@@ -8,17 +8,32 @@
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script>
+			$(document).ready( function() {
+		// show/hide/toggle 효과
+		$('#hide').click(function() {
+				$('img').hide(400);
+		});
+		$('#show').click(function() {
+				$('img').show(400);
+		});
+		$('#toggle').click(function() {
+				$('img').toggle(400);
+		});
+	});
+		</script>
+	
 	</head>
 	<body>
 		<header class="header">
 			<h1>201858030 양승찬 홈페이지</h1>
 		</header>
 		<nav>
-			<span><a href="mcareer.html" data-transition="pop"> 경력 </a></span>
-			<span><a href="mstudy.html" data-transition="slideup"> 학술 </a></span>
-			<span><a href="minfo.html" data-transition="slide"> 인적 </a></span>
-			<span><a href="mintro.html" data-transition="flip"> 소개 </a></span>
-			<span><a href="mresume.html" data-transition="fade">이력서</a></span>
+				<button id="hide" data-inline="true"> 사진숨기기 </button>
+		<button id="show" data-inline="true"> 사진보이기 </button>
+		<button id="toggle" data-inline="true"> toggle </button>
+	
+			
 		</nav>
 		<div class="div">
 			<img id="stu-pic2" src="stu.jpg" float="right"/>
